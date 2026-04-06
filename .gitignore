@@ -1,0 +1,56 @@
+# Mengabaikan folder build dan output
+bin/
+obj/
+out/
+
+# Mengabaikan file konfigurasi lokal pengguna
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Mengabaikan file log
+*.log
+
+# Mengabaikan paket NuGet yang diunduh
+*.nupkg
+*.snupkg
+packages/
+
+# Mengabaikan file temporary dan cache
+*.vs/
+.vscode/
+*.vscode/
+*.temp
+*.tmp
+*.DS_Store
+*.idea/
+*.rpt
+
+# Mengabaikan publish folder
+publish/
+
+# Mengabaikan file JetBrains Rider
+.idea/
+*.sln.iml
+
+# Mengabaikan file lint dan analyzer caches
+*.dotnet-tools.json
+*.editorconfig
+*.global.json
+global.json
+
+# User-specific files
+*.env
+*.local
+
+# Optional: Jika menggunakan Visual Studio
+.vs/
+*.dbmdl
+*.pdb
+*.cache
+*.ilk
+*.log
+*.tlog/
+*.lastbuildstate
+*.userprefs
