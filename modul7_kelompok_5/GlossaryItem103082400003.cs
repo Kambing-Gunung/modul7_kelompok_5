@@ -3,7 +3,7 @@ using System.IO;
 using System.Text.Json;
 using System.Collections.Generic;
 
-class GlossaryItem1201230011
+class GlossaryItem103082400003
 {
     public Glossary glossary { get; set; }
 
@@ -43,9 +43,9 @@ class GlossaryItem1201230011
 
     public static void ReadJSON()
     {
-        string jsonString = File.ReadAllText("jurnal7_3_1201230011.json");
+        string jsonString = File.ReadAllText("jurnal7_3_103082400003.json");
 
-        GlossaryItem1201230011 data = JsonSerializer.Deserialize<GlossaryItem1201230011>(jsonString)!;
+        GlossaryItem103082400003 data = JsonSerializer.Deserialize<GlossaryItem103082400003>(jsonString)!;
 
         Console.WriteLine("\n========== GLOSSARY DATA ==========");
         Console.WriteLine("Title          : " + data.glossary.title);

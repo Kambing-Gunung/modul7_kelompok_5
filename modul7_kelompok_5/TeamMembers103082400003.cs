@@ -3,7 +3,7 @@ using System.IO;
 using System.Text.Json;
 using System.Collections.Generic;
 
-class TeamMembers1201230011
+class TeamMembers103082400003
 {
     public List<Members>? members { get; set; }
 
@@ -18,9 +18,9 @@ class TeamMembers1201230011
 
     public static void ReadJSON()
     {
-        string jsonString = File.ReadAllText("jurnal7_2_1201230011.json");
+        string jsonString = File.ReadAllText("jurnal7_2_103082400003.json");
 
-        TeamMembers1201230011 data = JsonSerializer.Deserialize<TeamMembers1201230011>(jsonString)!;
+        TeamMembers103082400003 data = JsonSerializer.Deserialize<TeamMembers103082400003>(jsonString)!;
         Console.WriteLine("\n========== Team Members List ==========");
 
         int i = 1;

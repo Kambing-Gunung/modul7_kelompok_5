@@ -1,0 +1,49 @@
+{
+  "firstName": "Muhammad",
+  "lastName": "Chandra",
+  "gender": "Pria",
+  "age": 20,
+  "address": {
+    "streetAddress": "Pagesangan",
+    "city": "Surabaya",
+    "state": "Jawa Timur"
+  },
+    "courses": [
+      {
+        "code": "CCK2GAB3",
+        "name": "INTERAKSI MANUSIA KOMPUTER"
+      },
+      {
+        "code": "CCK2HAB4",
+        "name": "BASIS DATA"
+      },
+      {
+        "code": "CCK2KAB4",
+        "name": "KONSTRUKSI PERANGKAT LUNAK"
+      },
+      {
+        "code": "CCK2JAC2",
+        "name": "PROYEK TINGKAT II"
+      },
+      {
+        "code": "CCK2HAB4",
+        "name": "BASIS DATA (PRAKTIKUM)"
+      },
+      {
+        "code": "CCK4HBB3",
+        "name": "PENGEMBANGAN PERANGKAT LUNAK UNTUK STARTUP"
+      },
+      {
+        "code": "CCK2KAB4",
+        "name": "KONSTRUKSI PERANGKAT LUNAK (PRAKTIKUM)"
+      },
+      {
+        "code": "CCK2LAB3",
+        "name": "KECERDASAN BUATAN"
+      },
+      {
+        "code": "CCK2IAB3",
+        "name": "DASAR JARINGAN KOMPUTER"
+      }
+    ]
+}
