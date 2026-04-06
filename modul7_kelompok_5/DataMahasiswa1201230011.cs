@@ -34,21 +34,21 @@ class DataMahasiswa1201230011
         Console.WriteLine(
             "\n========== Data Mahasiswa ==========" + 
             "\n" +
-            $"Name {data.firstName} {data.lastName}\n" +
-            $"Gender {data.gender}\n" +
-            $"Age {data.age}\n\n" +
-            $"Address: \n" +
-            $"  Street {data.address.streetAddress}\n" +
-            $"  City {data.address.city}\n" +
-            $"  State {data.address.state}\n\n" +
-            $"Courses:"
+            $"Name    : {data.firstName} {data.lastName}\n" +
+            $"Gender  : {data.gender}\n" +
+            $"Age     : {data.age}\n\n" +
+            $"Address : \n" +
+            $"  Street : {data.address.streetAddress}\n" +
+            $"  City   : {data.address.city}\n" +
+            $"  State  : {data.address.state}\n\n" +
+            $"Courses List :"
             );
 
         int i = 1;
         foreach (var course in data.courses)
         {
-            Console.WriteLine($"{i}. Kode {course.kode}");
-            Console.WriteLine($"   Nama {course.nama}");
+            Console.WriteLine($"{i}. Kode : {course.kode}");
+            Console.WriteLine($"   Nama : {course.nama}");
             i++;
         }
     }

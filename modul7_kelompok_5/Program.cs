@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        DataMahasiswa1201230011.ReadJSON();
+        // DataMahasiswa1201230011.ReadJSON();
+        TeamMembers1201230011.ReadJSON();
     }
 }

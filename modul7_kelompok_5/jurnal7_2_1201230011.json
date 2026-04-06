@@ -1,0 +1,32 @@
+{
+    "members": [
+        {
+            "firstName": "David",
+            "lastName": "Herdyansyah",
+            "gender": "Pria",
+            "age": 22,
+            "nim": "1201230011"
+        },
+        {
+            "firstName": "Muhammad",
+            "lastName": "Chandra",
+            "gender": "Pria",
+            "age": 21,
+            "nim": "103082400003"
+        },
+        {
+            "firstName": "Ruben",
+            "lastName": "Simarmata",
+            "gender": "Pria",
+            "age": 21,
+            "nim": "103082400008"
+        },
+        {
+            "firstName": "Daffa",
+            "lastName": "Fithrony",
+            "gender": "Pria",
+            "age": 21,
+            "nim": "1201230041"
+        }
+    ]
+}
